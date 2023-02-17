@@ -82,7 +82,7 @@ DATABASES = {
     # Connexion à une BDD PostgreSQL
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'afpar',
+        'NAME': 'classifr',
         'USER' : 'postgres',
         'PASSWORD' : '0000',
         'HOST' : '127.0.0.1',

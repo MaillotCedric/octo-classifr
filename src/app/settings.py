@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # mes applications
     "app",
     "connexion",
+    "modeles",
     # ----------------
 ]
 

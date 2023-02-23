@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "app",
     "connexion",
     "modeles",
-    "app_images"
+    "app_images",
+    "predictions",
     # ----------------
 ]
 

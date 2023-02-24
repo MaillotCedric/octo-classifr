@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     "app_images",
     "predictions",
     # ----------------
+    # REST framework
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

@@ -20,22 +20,21 @@
                   <img src="{% static 'images/favicon.ico' %}" width="30" height="30" alt="">
                 </a>
                 {% if user.is_authenticated %}
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Images</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Modèles</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Prédiction</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="btn btn-outline-secondary">Decon&xion</a>
-                </li>
-            </ul>
-            {% endif %}
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Images</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Modèles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prédiction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-secondary">Decon&xion</a>
+                        </li>
+                    </ul>
+                {% endif %}
 
 
         </nav>
